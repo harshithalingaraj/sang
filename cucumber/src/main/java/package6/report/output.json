@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-23T11:21:05.015Z",
+        "line": 12,
+        "name": "To check the number of fruits",
+        "description": "",
+        "id": "to-test-number-of-fruits;to-check-the-number-of-fruits;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8387736,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "There are \"12\" friuts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Data.ab(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apples",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "oranges",
+                  "sangee"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 772093,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I eat \"5\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 6
+                }
+              ],
+              "location": "Data.bc(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 739978,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have \"7\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Data.cd(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-23T11:21:05.097Z",
+        "line": 13,
+        "name": "To check the number of fruits",
+        "description": "",
+        "id": "to-test-number-of-fruits;to-check-the-number-of-fruits;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2784765,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "There are \"10\" friuts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Data.ab(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apples",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "oranges",
+                  "sangee"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1268391,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I eat \"7\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 6
+                }
+              ],
+              "location": "Data.bc(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 879365,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have \"3\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Data.cd(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test number of fruits",
+    "description": "",
+    "id": "to-test-number-of-fruits",
+    "keyword": "Feature",
+    "uri": "classpath:package6/data.feature",
+    "tags": []
+  }
+]
